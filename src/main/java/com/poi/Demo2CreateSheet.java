@@ -8,7 +8,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 public class Demo2CreateSheet {
 
 	public static void main(String[] args) throws Exception {
-		
+		//sheet
 		Workbook wb=new HSSFWorkbook(); // 定义一个新的工作簿
 		wb.createSheet("第一个Sheet页");  // 创建第一个Sheet页
 		wb.createSheet("第二个Sheet页");  // 创建第二个Sheet页
